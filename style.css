@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+        .container {
+            height: 265px;
+            width: 510px;
+            background-color: black;
+            padding: 5px;
+            margin: 40px;
+            filter: blur(10px);
+            color-scheme: orange;
+            border-radius: 5px;
+            border: 1.5px solid white;
+            
+        }
+
+        .text1 {
+            height: 140px;
+            width: 250px;
+            background-color: black;
+            color: white;
+            font-size: 13px;
+            float: right;
+            border: 1.5px solid orangered;
+            font-style: normal;
+            font-family: "orbitron", serif;
+            font-weight: bold;
+            padding: 10px;
+            margin-left: 1px;
+          
+        }
+
+        #det {
+            float: left;
+            margin-right: 0px;
+          
+        }
+
+        #time {
+            text-align: right;
+        }
+
+        .text2 {
+            background-color: rgb(247, 141, 71);
+            color: white;
+
+            height: 60px;
+            width: 490px;
+           
+            padding: 8px;
+            font-family: "orbitron", serif;
+            font-weight: bold;
+            text-align: justify;
+            overflow: hidden;
+            word-wrap: break-word;
+            line-height: 1.5;
+           
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .overlay-image {
+            position: absolute;
+            top: 24%;
+            left: 24%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 20px;
+            pointer-events: none;
+        }
+
+        .box {
+            position: absolute;
+
+            top: 30%;
+            left: 24%;
+
+            transform: translate(-50%, -50%);
+
+            padding: 10px;
+            font-size: 10px;
+            width: 200px;
+
+            height: 10px;
+
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+
+        }
+        .overlay-text{
+            position: absolute;
+            top: 35%;
+            left: 22%;
+            color: white;
+        }
+        .container2{
+            height:175px;
+            width:510px;
+            background-color: black;
+        }
+        .img3{
+            border-bottom: 1px solid orangered;
+            bottom:10px;
+            margin-left:30px;
+        }
