@@ -5,13 +5,20 @@ body {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+.main{
+    height:300px;
+    width:85%;
+    background-color: black
+
+}
 
         .container {
-            height: 265px;
+            float:left;
+            height: 300px;
             width: 510px;
             background-color: black;
             padding: 5px;
-            margin: 40px;
+            margin: 60px;
             filter: blur(10px);
             color-scheme: orange;
             border-radius: 5px;
@@ -46,10 +53,10 @@ body {
         }
 
         .text2 {
-            background-color: rgb(247, 141, 71);
+            background-color:rgb(234, 127, 40);
             color: white;
 
-            height: 60px;
+            height: 100px;
             width: 490px;
            
             padding: 8px;
@@ -58,16 +65,16 @@ body {
             text-align: justify;
             overflow: hidden;
             word-wrap: break-word;
-            line-height: 1.5;
+            line-height:1.55;
            
-            font-size: 12px;
+            font-size: 18px;
             margin-top: 10px;
         }
 
         .overlay-image {
             position: absolute;
-            top: 24%;
-            left: 24%;
+            top: 26%;
+            left: 25%;
             transform: translate(-50%, -50%);
             width: 20px;
             height: 20px;
@@ -76,26 +83,20 @@ body {
 
         .box {
             position: absolute;
-
-            top: 30%;
-            left: 24%;
-
+            top: 33%;
+            left: 25%;
             transform: translate(-50%, -50%);
-
             padding: 10px;
             font-size: 10px;
             width: 200px;
-
             height: 10px;
-
             border: 1px solid #ccc;
             border-radius: 5px;
             box-sizing: border-box;
-
         }
         .overlay-text{
             position: absolute;
-            top: 35%;
+            top: 36%;
             left: 22%;
             color: white;
         }
@@ -109,3 +110,85 @@ body {
             bottom:10px;
             margin-left:30px;
         }
+        #leftdown{
+            background-color: black;
+            height: 120%;
+            width: 100%;
+            display:flex;
+            margin:20px;
+            
+        }
+        #rightup{
+            height: 75px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            float:right;
+            margin-left: 10px;
+            
+        }
+        
+        .rightup2{
+            background-color: rgb(16, 43, 67);
+            height: 200px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        
+            float:right;
+           
+            
+        }
+        #gif2{
+            float:left;
+            height:100%;
+            width:50%;
+            display:flex;
+        }
+        
+        #img4{
+            float:right;
+        }
+       
+        
+      .overlay-text3{
+        position: absolute;
+        top: 85%;
+        left: 66%;
+        color: white;
+
+      }
+      .overlay-text4{
+        position: absolute;
+        top: 85%;
+        left: 77%;
+        color: white;
+
+      }
+      .overlay-text5{
+        position: absolute;
+        top: 105%;
+        left: 65%;
+        color: white;
+
+      }
+      .overlay-text6{
+        position: absolute;
+        top: 105%;
+        left: 78%;
+        color: white;
+
+      }
+       .box1{
+        background-color: black;
+        color: white;
+        
+          
+            font-size: 10px;
+            width: 80px;
+            height: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+       }
